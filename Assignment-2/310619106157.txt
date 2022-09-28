@@ -1,0 +1,12 @@
+import random,time
+import random,time
+
+while 1:
+    temp = random.randint(-20,50);
+    humidity = temp = random.randint(0,100);
+
+    if(temp>35):
+        print("HIGH TEMPERATURE")
+    else:
+        print("Good Day")
+    time.sleep(1)
